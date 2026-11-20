@@ -18,7 +18,7 @@ Native, local, dependency-free image generation at 1024x1024px.
 ***   
 ### Properties
 Enter your image generation prompt, and press the button to encode it. With FLUX 2, steps and guidance are hardcoded at `steps=4` and `cfg=1`. The text encoder Qwen 3 4B writes its output as pixel data into Nuke layers. When the node is copied, the encoded tokens may get lost. In this case, simply press the `Encode prompt` button again.
-<!---![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)-->
+![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke-T2I.png)
 
 ### License
 flux-2-klein-4b_T2I_1024px.cat is an experimental implementation licensed under the Apache 2 License and is derived from **black-forest-labs/FLUX.2-klein-4B**. Although the Apache 2 License permits commercial use of the flux-2-klein-4b_T2I_1024px.cat code, the underlying pre-trained models, associated training data, and dependencies may be subject to separate — including non-commercial — licensing restrictions that are not covered by this license. Users should consult the original Flux 2 klein 4B repository for further information on applicable licensing terms and are solely responsible for ensuring that their intended use complies with all relevant restrictions. **No legal responsibility is assumed by the author for your use of results generated with this implementation.**

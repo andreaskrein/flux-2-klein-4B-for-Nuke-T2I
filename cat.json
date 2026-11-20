@@ -2,11 +2,11 @@
     "minimum_nuke_version_required": 17.0,
     "version": 1,
     "category": "Generative",
-    "description": "FLUX.2[klein] 4B - https://github.com/andreaskrein/flux-2-klein-4b-for-Nuke",
+    "description": "FLUX.2[klein] 4B (text-to-image) - https://github.com/andreaskrein/flux-2-klein-4b-for-Nuke-T2I",
     "cats": [
         {
-            "filepath": "Flux2Klein4B.gizmo",
-            "name": "FLUX.2[klein] 4B",
+            "filepath": "Flux2Klein4B_T2I.gizmo",
+            "name": "FLUX.2[klein] 4B (text-to-image)",
             "icon": "generative.png"
         }
     ]

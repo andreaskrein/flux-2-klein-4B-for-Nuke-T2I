@@ -17,7 +17,7 @@ Native, local, dependency-free image generation at 1024x1024px.
    ![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
 ***   
 ### Properties
-Enter your image generation prompt, and press the button to encode it. You can then change the seed. With FLUX 2, steps and guidance are hardcoded at `steps=4` and `cfg=1`.   
+Enter your image generation prompt, and press the button to encode it. With FLUX 2, steps and guidance are hardcoded at `steps=4` and `cfg=1`.   
 The text encoder Qwen 3 4B writes its output as pixel data into Nuke layers. When the node is copied, the encoded tokens may get lost. In this case, simply press the `Encode prompt` button again.
 ![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)
 

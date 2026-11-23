@@ -17,7 +17,7 @@ Native, local, dependency-free image generation at 1024x1024px.
    ![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
 ***   
 ### Properties
-Enter your image generation prompt, and press the button to encode it. With FLUX 2, steps and guidance are hardcoded at `steps=4` and `cfg=1`.   
+Enter your image generation prompt, and press the button to encode it. With distilled FLUX 2 Klein, steps and guidance are hardcoded at `steps=4` and `cfg=1`.   
 
 The built-in tokenizer saves its output in animation curves, and all encoded text is handed downstream as pixel data, via Nuke layers. 
 ![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke-T2I.png)
